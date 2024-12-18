@@ -1,0 +1,50 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+
+}
+.navbar{
+    background-color: #446B7C;
+    height: 50px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 4vmin;
+   margin-bottom: 1.5rem;
+   scroll-behavior: inherit;
+}
+a, h2{
+    
+    color: white;
+    text-decoration: none;
+    background-color: inherit;
+  }
+  .iconnav{
+    width: 30px;
+    height: 30px;
+    background-color: inherit; 
+    margin-left: 0px;
+  }
+  .barresaeach{
+    height: 35px;
+    width: 80vh;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-right: -3px;
+  }
+  .aceuil{
+    display: flex;
+    border-radius: 10px;
+
+    border: 1px, solid, black ;
+    margin:20px;
+    padding: 20px;
+  }
+
+/* nav a {
+    padding: 0.5rem 0.7rem;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  border-radius: 1.5rem;
+} */
